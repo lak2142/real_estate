@@ -1,0 +1,6 @@
+<h1>INDEX PAGE</h1>
+
+<%- buildings.each do |building| -%>
+  <h3><%= building.name %></h3>
+  <%= link_to "Destroy #{building.name}", building, method: :delete %>
+<%- end -%>

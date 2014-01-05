@@ -1,0 +1,1 @@
+json.extract! @building, :id, :street_address, city, :state, :postal_code
